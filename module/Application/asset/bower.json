@@ -1,0 +1,22 @@
+{
+    "name": "salesandordersads",
+    "version": "0.9.0dev",
+    "description": "Apigility Admin UI",
+    "main": "dist/ads/index.html",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "dist",
+        "node_modules",
+        "bower_components",
+        "vendor",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.1.1",
+        "jquery": "~2.0.3"
+    },
+    "devDependencies": {}
+}
