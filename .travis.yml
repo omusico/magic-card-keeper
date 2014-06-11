@@ -1,0 +1,24 @@
+
+language: php
+
+services:
+ - mongodb
+
+php:
+  - "5.4"
+  - "5.5"
+
+notifications:
+  email:
+    - chuck@manchuck.com
+
+env:
+ - MODULE_FOLDER=module/Application
+
+before_script:
+ - pecl install -f mongo-1.4.1
+ - composer install --dev
+
+script:
+ - "phpunit --configuration $MODULE_FOLDER/test/phpunit.xml"
+ - "vendor/bin/phpcs --severity=Error --standard=PSR2 --ignore=*/test/* $MODULE_FOLDER"
