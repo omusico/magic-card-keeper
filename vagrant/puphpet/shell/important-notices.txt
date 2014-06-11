@@ -1,0 +1,33 @@
+   _____                 .__
+  /     \ _____     ____ |__| ____
+ /  \ /  \\__  \   / ___\|  |/ ___\
+/    Y    \/ __ \_/ /_/  >  \  \___
+\____|__  (____  /\___  /|__|\___  >
+        \/     \//_____/         \/
+___________.__
+\__    ___/|  |__   ____
+  |    |   |  |  \_/ __ \
+  |    |   |   Y  \  ___/
+  |____|   |___|  /\___  >
+                \/     \/
+  ________        __  .__                 .__
+ /  _____/_____ _/  |_|  |__   ___________|__| ____    ____
+/   \  ___\__  \\   __\  |  \_/ __ \_  __ \  |/    \  / ___\
+\    \_\  \/ __ \|  | |   Y  \  ___/|  | \/  |   |  \/ /_/  >
+ \______  (____  /__| |___|  /\___  >__|  |__|___|  /\___  /
+        \/     \/          \/     \/              \//_____/
+
+Read me for some important information!
+
+If Puppet did not blow up (you do not see a sea of red above), then your VM
+was generated successfully!
+
+This now means that you have to finish up with some other things
+
+* start by running composer on the document root /var/www/mck
+* update your hosts file on the host machine
+* head on over to https://magic-card-keeper.com
+* if you do not follow the above steps and those outlined in the README.md I
+  will not cater to your questions
+
+                                - Chuck "MANCHUCK" Reeves
